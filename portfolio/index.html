@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Sharma | Portfolio</title>
+    <meta name="description" content="Mayank Sharma - Cognitive Science student at UC San Diego specializing in Machine Learning & Neural Computation">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">MS</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">
+                    <i class="fas fa-home nav-icon"></i>
+                    <span>Home</span>
+                </a></li>
+                <li><a href="#about" class="nav-link">
+                    <i class="fas fa-user nav-icon"></i>
+                    <span>About</span>
+                </a></li>
+                <li><a href="#experience" class="nav-link">
+                    <i class="fas fa-briefcase nav-icon"></i>
+                    <span>Experience</span>
+                </a></li>
+                <li><a href="#skills" class="nav-link">
+                    <i class="fas fa-code nav-icon"></i>
+                    <span>Skills</span>
+                </a></li>
+                <li><a href="#projects" class="nav-link">
+                    <i class="fas fa-folder nav-icon"></i>
+                    <span>Projects</span>
+                </a></li>
+                <li><a href="#contact" class="nav-link">
+                    <i class="fas fa-envelope nav-icon"></i>
+                    <span>Contact</span>
+                </a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">
+                    <span class="name-line">Mayank</span>
+                    <span class="name-line">Sharma</span>
+                </h1>
+                <div class="hero-title">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Cognitive Science student at UC San Diego specializing in Machine Learning & Neural Computation.
+                    Building AI solutions and full-stack applications with a passion for computational neuroscience.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:mayanks.mail7@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <i class="fas fa-brain"></i>
+                    <span>ML & AI</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-code"></i>
+                    <span>Full-Stack</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-vr-cardboard"></i>
+                    <span>XR/AR/VR</span>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a <strong>Cognitive Science student</strong> at UC San Diego with a specialization in 
+                        <strong>Machine Learning & Neural Computation</strong>. My passion lies at the intersection 
+                        of artificial intelligence, neuroscience, and software engineering.
+                    </p>
+                    <p>
+                        Currently, I'm working on cutting-edge research in XR/AR/VR environments, developing 
+                        PyTorch pipelines for pose estimation, and building an AI voice-coding agent to make 
+                        programming accessible to everyone. I love solving complex problems and turning ideas 
+                        into impactful solutions.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">4+</div>
+                            <div class="stat-label">Research Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2027</div>
+                            <div class="stat-label">Graduation</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-glow"></div>
+                        <div class="about-card">
+                            <div class="card-content">
+                                <i class="fas fa-graduation-cap"></i>
+                                <h3>UCSD</h3>
+                                <p>B.S. Cognitive Science</p>
+                                <span>ML & Neural Computation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Experience</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>UCSD XR Labs - Researcher</h3>
+                            <span class="timeline-date">2024 - Present</span>
+                        </div>
+                        <p class="timeline-location">San Diego, CA</p>
+                        <ul class="timeline-details">
+                            <li>Developed and optimized machine learning pipelines in PyTorch for precise pose estimation and segmentation within XR/AR/VR environments</li>
+                            <li>Integrated MediaPipe pose-tracking technology to enhance human behavior analysis</li>
+                            <li>Collaborated with faculty on advanced cross-disciplinary AI projects</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">MediaPipe</span>
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">XR/AR/VR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>CSES Innovate AI Researcher @ UCSD</h3>
+                            <span class="timeline-date">2025 - Present</span>
+                        </div>
+                        <p class="timeline-location">San Diego, CA</p>
+                        <ul class="timeline-details">
+                            <li>Designing an AI voice-coding agent that enables people with disabilities and advanced programmers to write production-grade code through speech-only interaction</li>
+                            <li>Working alongside PhD students and professors from the UCSD "Basement" to pitch final product and research portfolio</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Accessibility</span>
+                            <span class="tag">Research</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Salk Institute for Biological Studies - Cognitive Science Research Intern</h3>
+                            <span class="timeline-date">2023 - Present</span>
+                        </div>
+                        <p class="timeline-location">San Diego, CA</p>
+                        <ul class="timeline-details">
+                            <li>Supported cutting-edge neuroscience research in the Vision Center Laboratory under PI Sergei Gepshtein</li>
+                            <li>Utilized Python, MATLAB, C, and Java for comprehensive data analysis</li>
+                            <li>Conducted Fourier transformations and 3D simulations for the LACMA Neuroscience Project</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">MATLAB</span>
+                            <span class="tag">Neuroscience</span>
+                            <span class="tag">Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>ASIC-AI - Web Development Intern</h3>
+                            <span class="timeline-date">2024 - Present</span>
+                        </div>
+                        <p class="timeline-location">Remote</p>
+                        <ul class="timeline-details">
+                            <li>Engineered and deployed secure full-stack websites using HTML, CSS, JavaScript, MongoDB, and PostgreSQL</li>
+                            <li>Optimized back-end performance by 30% through efficient database management and code refactoring</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Full-Stack</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">Java</div>
+                        <div class="skill-item">C</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">HTML/CSS</div>
+                        <div class="skill-item">SQL</div>
+                        <div class="skill-item">MATLAB</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>ML & AI</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">PyTorch</div>
+                        <div class="skill-item">TensorFlow</div>
+                        <div class="skill-item">Keras</div>
+                        <div class="skill-item">Scikit-learn</div>
+                        <div class="skill-item">Neural Networks</div>
+                        <div class="skill-item">Deep Learning</div>
+                        <div class="skill-item">Computer Vision</div>
+                        <div class="skill-item">Pose Estimation</div>
+                        <div class="skill-item">MediaPipe</div>
+                        <div class="skill-item">NLP</div>
+                        <div class="skill-item">Generative AI</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Data & Tools</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">MongoDB</div>
+                        <div class="skill-item">PostgreSQL</div>
+                        <div class="skill-item">Data Science</div>
+                        <div class="skill-item">Statistical Analysis</div>
+                        <div class="skill-item">Fourier Transformations</div>
+                        <div class="skill-item">3D Simulations</div>
+                        <div class="skill-item">Google Cloud Platform</div>
+                        <div class="skill-item">AWS</div>
+                        <div class="skill-item">Docker</div>
+                        <div class="skill-item">Git</div>
+                        <div class="skill-item">Google Analytics</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-microphone-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">AI & Accessibility</span>
+                        <h3>AI Voice-Coding Agent</h3>
+                        <p>An innovative AI system enabling speech-only code generation for people with disabilities and advanced programmers. Built with NLP and speech recognition technologies.</p>
+                        <div class="project-tags">
+                            <span>NLP</span>
+                            <span>AI</span>
+                            <span>Accessibility</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-vr-cardboard"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">XR/AR/VR</span>
+                        <h3>Pose Estimation Pipeline</h3>
+                        <p>Advanced PyTorch-based ML pipeline for real-time pose estimation and segmentation in XR environments. Integrated MediaPipe for enhanced human behavior analysis.</p>
+                        <div class="project-tags">
+                            <span>PyTorch</span>
+                            <span>MediaPipe</span>
+                            <span>Computer Vision</span>
+                            <span>XR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Neuroscience</span>
+                        <h3>LACMA Neuroscience Project</h3>
+                        <p>Comprehensive data analysis and 3D simulations for cognitive perception research. Utilized Fourier transformations and advanced statistical methods.</p>
+                        <div class="project-tags">
+                            <span>MATLAB</span>
+                            <span>Python</span>
+                            <span>Neuroscience</span>
+                            <span>Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Full-Stack</span>
+                        <h3>Full-Stack Web Applications</h3>
+                        <p>Secure, high-performance web applications with optimized back-end performance. Built with modern JavaScript frameworks, MongoDB, and PostgreSQL.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>MongoDB</span>
+                            <span>PostgreSQL</span>
+                            <span>Full-Stack</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Awards Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">Education & Achievements</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="education-content">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>University of California, San Diego</h3>
+                        <p class="education-degree">B.S. Cognitive Science - Specialization in Machine Learning & Neural Computation</p>
+                        <p class="education-date">Expected June 2027</p>
+                        <div class="education-courses">
+                            <h4>Relevant Coursework:</h4>
+                            <div class="course-tags">
+                                <span>Cognitive Science</span>
+                                <span>Ethology</span>
+                                <span>Data Science</span>
+                                <span>Computational Neuroscience</span>
+                                <span>Neural Networks</span>
+                                <span>Deep Learning</span>
+                                <span>Computer Vision</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="awards-section">
+                    <h3 class="awards-title">Awards & Certifications</h3>
+                    <div class="awards-grid">
+                        <div class="award-card">
+                            <i class="fas fa-trophy"></i>
+                            <h4>National Winner</h4>
+                            <p>International Humanitarian Law Essay Competition</p>
+                            <span>Published in Nuclear Weapons and Armed Conflict Journal</span>
+                        </div>
+                        <div class="award-card">
+                            <i class="fas fa-certificate"></i>
+                            <h4>J.P. Morgan Chase</h4>
+                            <p>Software Engineering Certification</p>
+                        </div>
+                        <div class="award-card">
+                            <i class="fas fa-certificate"></i>
+                            <h4>Google Cloud</h4>
+                            <p>Generative AI Fundamentals</p>
+                        </div>
+                        <div class="award-card">
+                            <i class="fas fa-dollar-sign"></i>
+                            <h4>Red Cross Scholarships</h4>
+                            <p>$2,000 in Leadership Awards</p>
+                        </div>
+                        <div class="award-card">
+                            <i class="fas fa-medal"></i>
+                            <h4>Congressional App Challenge</h4>
+                            <p>Recognition for Interactive Website</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">06</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-intro">
+                        I'm always open to discussing new opportunities, interesting projects, 
+                        or just having a conversation about AI, neuroscience, or technology.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:mayanks.mail7@gmail.com">mayanks.mail7@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+18582607435">(858) 260-7435</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>San Diego, CA 92131</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://linkedin.com" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Mayank Sharma. All rights reserved.</p>
+                <p>Built with passion for AI, ML, and innovation</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
